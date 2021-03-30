@@ -12,7 +12,6 @@ import {
   FILTER_CONTACTS,
   CLEAR_FILTER,
 } from "../types";
-import { startSession } from "mongoose";
 
 const ContactState = (props) => {
   const initialState = {
